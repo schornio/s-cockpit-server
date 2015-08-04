@@ -1,0 +1,29 @@
+{
+  "name": "s-cockpit-server",
+  "version": "0.0.0",
+  "description": "Server for s-cockpit",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha --report html --dir ./report/coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schornio/s-cockpit-server.git"
+  },
+  "keywords": [
+    "log",
+    "server",
+    "cockpit"
+  ],
+  "author": "Thomas Schorn",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/schornio/s-cockpit-server/issues"
+  },
+  "homepage": "https://github.com/schornio/s-cockpit-server#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  }
+}
